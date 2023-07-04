@@ -36,6 +36,8 @@ io.on("connection", (socket) => {
 })
 
 server.listen(3001, () => {
+
+  console.log('the server in running');
 })
 
 // Connect to MongoDB 
