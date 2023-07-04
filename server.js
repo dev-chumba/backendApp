@@ -13,7 +13,7 @@ const User = require("./models/user");
 const Game_loop = require("./models/game_loop")
 require('dotenv').config()
 
-const GAME_LOOP_ID = '6491ea03b8255fc2af655e71'
+const GAME_LOOP_ID = '649c9f6b8a28bf68abc5874a'
 
 const { Server } = require('socket.io')
 const http = require('http')
